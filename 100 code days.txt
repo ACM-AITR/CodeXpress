@@ -1,0 +1,20 @@
+Day 1  - Day 5 : Array
+Day 6  - Day 10: String
+Day 11 - Day 15: Math
+Day 16 - Day 20: Sorting
+Day 21 - Day 25: matrix
+Day 26 - Day 30: Hash Table
+Day 31 - Day 35: Two Pointers
+Day 36 - Day 40: Sliding Window
+Day 41 - Day 45: Recursion & Backtracking
+Day 46 - Day 50: Binary Search
+Day 51 - Day 55: game theory
+Day 56 - Day 60: Heap
+Day 61 - Day 65: Stack
+Day 66 - Day 70: Queue
+Day 71 - Day 75: Tree
+Day 76 - Day 80: Graph
+Day 81 - Day 85: BFS
+Day 86 - Day 90: DFS
+Day 91 - Day 95: Greedy
+Day 96 - Day 100: Dynamic Programming
