@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+int countNiceSequences(int nums[], int n, int k) {
+    int niceSequences = 0;
+
+    for (int i = 0; i < n; ++i) {
+        int oddCount = 0;
+
+        for (int j = i; j < n; ++j) {
+            if (nums[j] % 2 != 0) {
+                oddCount++;
+            }
+
+            if (oddCount == k) {
+                niceSequences++;
+            }
+        }
+    }
+
+    return niceSequences;
+}
+
+int main() {
+    int T;
+    cin >> T;
+
+    while (T--) {
+        int n, k;
+        cin >> n >> k;
+
+        int nums[n];
+        for (int i = 0; i < n; ++i) {
+            cin >> nums[i];
+        }
+
+        int result = countNiceSequences(nums, n, k);
+        cout << result << endl;
+    }
+
+    return 0;
+}
